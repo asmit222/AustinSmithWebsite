@@ -43,7 +43,7 @@
     margin-left: 35rem !important;
   }
   .backgroundp {
-    max-width: 40rem !important;
+    max-width: 30rem !important;
   }
   .leftSide {
     margin-left: 3rem;
@@ -265,6 +265,7 @@ resumeText .fa-github:hover,
   transition: background-color 0.2s ease, color 0.2s ease;
 
   width: 100%;
+  max-width: 30rem;
   position: relative;
   left: -2rem;
   margin-bottom: 3rem;
@@ -334,9 +335,6 @@ resumeText .fa-github:hover,
   gap: 6px;
 }
 
-.projectPreviewImage {
-}
-
 .froobsbooksimage {
   background-image: url("./assets/froobsbookspreview.png");
   background-size: cover; /* or contain, or specific dimensions */
@@ -352,6 +350,16 @@ resumeText .fa-github:hover,
   background-size: cover; /* or contain, or specific dimensions */
   height: 120px;
   width: 67px;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+
+.froobleImage {
+  background-image: url("./assets/frooblepreview.png");
+  background-size: cover; /* or contain, or specific dimensions */
+  height: 130px;
+  width: 77px;
   background-position: center center;
 
   background-repeat: no-repeat;

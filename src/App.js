@@ -90,10 +90,10 @@ function App() {
               mentorship.
             </div>
             <div className="technologiesDiv">
-              <span class="text-teal-300">Java</span>
-              <span class="text-teal-300">Gosu</span>
-              <span class="text-teal-300">OracleDB</span>
-              <span class="text-teal-300">Policy Center</span>
+              <span className="text-teal-300">Java</span>
+              <span className="text-teal-300">Gosu</span>
+              <span className="text-teal-300">OracleDB</span>
+              <span className="text-teal-300">Policy Center</span>
             </div>
           </div>
         </div>
@@ -123,11 +123,11 @@ function App() {
                 books to your Kindle device with just a single click.
               </div>
               <div className="technologiesDiv">
-                <span class="text-teal-300">TypeScript</span>
-                <span class="text-teal-300">React</span>
-                <span class="text-teal-300">Auth0</span>
-                <span class="text-teal-300">AWS S3</span>
-                <span class="text-teal-300">Firebase</span>
+                <span className="text-teal-300">TypeScript</span>
+                <span className="text-teal-300">React</span>
+                <span className="text-teal-300">Auth0</span>
+                <span className="text-teal-300">AWS S3</span>
+                <span className="text-teal-300">Firebase</span>
               </div>
             </div>
           </div>
@@ -149,19 +149,34 @@ function App() {
                 assist in flight brief preparation.
               </div>
               <div className="technologiesDiv">
-                <span class="text-teal-300">JavaScript</span>
-                <span class="text-teal-300">React</span>
-                <span class="text-teal-300">HTML</span>
-                <span class="text-teal-300">CSS</span>
+                <span className="text-teal-300">JavaScript</span>
+                <span className="text-teal-300">React</span>
               </div>
             </div>
           </div>
         </a>
 
-        <p className="backgroundp2"></p>
-
-        <p className="backgroundp2"></p>
-        <p className="backgroundp"></p>
+        <a
+          href="https://effervescent-pothos-2864f7.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="experienceDiv">
+            <div className="experienceDate">
+              <div className="projectPreviewImage froobleImage"></div>
+            </div>
+            <div>
+              <div className="experienceDesc">Frooble</div>
+              <div className="experiencedescunder">
+                Wordle clone that lets you play as much as you want!
+              </div>
+              <div className="technologiesDiv">
+                <span className="text-teal-300">TypeScript</span>
+                <span className="text-teal-300">React</span>
+              </div>
+            </div>
+          </div>
+        </a>
       </main>
     </div>
   );
