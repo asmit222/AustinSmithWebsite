@@ -204,8 +204,7 @@ li {
   font-size: 1.5rem;
   color: #8492a7;
 }
-
-.fa-github:hover,
+resumeText .fa-github:hover,
 .fa-linkedin-in:hover,
 .fa-instagram:hover,
 .fa-twitter:hover {
@@ -225,21 +224,26 @@ li {
 
 .resumeText {
   letter-spacing: 0.075em;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 600;
-  color: #8492a7;
+  color: #e2e8f0;
   margin-left: 0.75rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .resumeText:hover {
-  color: #e2e8f0;
+  color: #44c5c1;
 }
 
 .resumeDOwnloadContainer {
-  position: fixed;
-  bottom: 17vh;
-  font-size: 1.5rem;
+  /* position: fixed;
+  bottom: 17vh; */
+  font-size: 1rem;
   color: #8492a7;
+}
+
+.fa-arrow-right {
+  margin-left: 0.5rem;
 }
 
 .resumeDOwnloadContainer:hover {
@@ -260,6 +264,7 @@ li {
   width: 100%;
   position: relative;
   left: -1rem;
+  margin-bottom: 3rem;
 }
 
 .experienceDiv:hover .experienceDesc {

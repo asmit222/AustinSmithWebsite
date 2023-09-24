@@ -53,12 +53,12 @@ function App() {
         >
           <i className="fab fa-linkedin-in"></i>
         </a>
-        <a href="/Austin-Smith-Resume.pdf" download="Austin-Smith-Resume.pdf">
+        {/* <a href="/Austin-Smith-Resume.pdf" download="Austin-Smith-Resume.pdf">
           <span className="resumeDOwnloadContainer">
             <i className="fa fa-download" aria-hidden="true"></i>
             <span className="resumeText">RESUME</span>
           </span>
-        </a>
+        </a> */}
       </header>
       <main className="rightSide" id="about">
         <p className="backgroundp">
@@ -97,32 +97,21 @@ function App() {
             </div>
           </div>
         </div>
+        <a
+          className="viewResumeAnchor"
+          href="/Austin-Smith-Resume.pdf"
+          download="Austin-Smith-Resume.pdf"
+        >
+          <span className="resumeDOwnloadContainer">
+            <span className="resumeText">View Full Resume</span>
+            <i className="fa-solid fa-arrow-right"></i>
+          </span>
+        </a>
 
-        <p className="backgroundp2">
-          My maaaaaaaaaaaaaaain focus these days is building products and
-          leading projects for our clients at Upstatement. In my free time I've
-          also released an online video course that covers everything you need
-          to know to build a web app with the Spotify API. When I’m not at the
-          computer, I’m usually rock climbing, hanging out with my wife and two
-          cats, or running around Hyrule searching for Korok seeds K o r o k s e
-          e d s .
-        </p>
+        <p className="backgroundp2"></p>
 
-        <p className="backgroundp2">
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and I’ve had the privilege of
-          building software for an advertising agency, a start-up, a student-led
-          design studio, and a huge corporation.{" "}
-        </p>
-        <p className="backgroundp">
-          My main focus these days is building products and leading projects for
-          our clients at Upstatement. In my free time I've also released an
-          online video course that covers everything you need to know to build a
-          web app with the Spotify API. When I’m not at the computer, I’m
-          usually rock climbing, hanging out with my wife and two cats, or
-          running around Hyrule searching for Korok seeds K o r o k s e e d s .
-        </p>
+        <p className="backgroundp2"></p>
+        <p className="backgroundp"></p>
       </main>
     </div>
   );
