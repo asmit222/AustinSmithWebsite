@@ -57,6 +57,10 @@
   color: #e2e8f0;
 }
 
+.AustinSmith:hover {
+  cursor: pointer;
+}
+
 .leftSide,
 .rightSide {
   width: 50%;
