@@ -207,8 +207,9 @@ li {
   bottom: 10vh;
   font-size: 1.5rem;
   color: #8492a7;
+  transition: color ease-in-out 0.2s;
 }
-resumeText .fa-github:hover,
+.fa-github:hover,
 .fa-linkedin-in:hover,
 .fa-instagram:hover,
 .fa-twitter:hover {
@@ -285,6 +286,7 @@ resumeText .fa-github:hover,
 .experienceDesc {
   color: #e2e8f0;
   /* margin-top: -5rem; */
+  transition: color ease-in-out 0.2s;
 }
 
 #experience,
