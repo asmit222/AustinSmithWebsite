@@ -63,18 +63,18 @@ function App() {
       <main className="rightSide" id="about">
         <p className="backgroundp">
           As a full-stack software engineer, I am constantly seeking new
-          opportunities to apply my diverse skill set and continue growing.
-          Problem-solving is my forte, and I'm passionate about developing both
-          front-end and back-end solutions.
+          opportunities to apply my diverse skill set and continue growing. I
+          love solving complex problems, and I'm passionate about developing
+          both front-end and back-end solutions.
         </p>
         <p className="backgroundp">
-          My experience as a Naval Officer has instilled in me the values of
+          My experience as a Naval Aviator has instilled in me the values of
           teamwork, collaboration, leadership, and self-discipline, which have
           all proven invaluable in my transition to software engineering.
         </p>
         <p className="backgroundp">
-          When I'm not coding, I enjoy traveling, reading, photography,
-          learning, movies, games, and spending time with loved ones.
+          When I'm not at the computer, I enjoy traveling, reading, photography,
+          and hanging out with my wife and pets. 🐱🐶🐱
         </p>
 
         <div id="experience"></div>
