@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -7,9 +6,7 @@ function App() {
       <header className="leftSide">
         {" "}
         <h1 className="NameHeader1">
-          <a className="AustinSmith" href="/">
-            Austin Smith
-          </a>
+          <a className="AustinSmith">Austin Smith</a>
         </h1>
         <h2 className="h2Softwareengineer">Software Engineer at State Farm</h2>
         <p className="pdescription">
@@ -75,7 +72,7 @@ function App() {
           teamwork, collaboration, leadership, and self-discipline, which have
           all proven invaluable in my transition to software engineering.
         </p>
-        <p className="backgroundp" id="about">
+        <p className="backgroundp">
           When I'm not coding, I enjoy traveling, reading, photography,
           learning, movies, games, and spending time with loved ones.
         </p>
@@ -111,7 +108,7 @@ function App() {
           e d s .
         </p>
 
-        <p className="backgroundp2" id="about">
+        <p className="backgroundp2">
           Back in 2012, I decided to try my hand at creating custom Tumblr
           themes and tumbled head first into the rabbit hole of coding and web
           development. Fast-forward to today, and I’ve had the privilege of

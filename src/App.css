@@ -18,7 +18,7 @@
 }
 
 .sectionsDiv {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 @import "typeface-inter";
@@ -76,7 +76,7 @@
 .rightSide {
   margin-left: 25rem;
   position: relative;
-  top: -20rem;
+  top: -26rem;
   padding-top: 6rem;
 }
 
