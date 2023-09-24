@@ -93,10 +93,11 @@ function App() {
               <span class="text-teal-300">Java</span>
               <span class="text-teal-300">Gosu</span>
               <span class="text-teal-300">OracleDB</span>
-              <span class="text-teal-300">PolicyCenter</span>
+              <span class="text-teal-300">Policy Center</span>
             </div>
           </div>
         </div>
+
         <a
           className="viewResumeAnchor"
           href="/Austin-Smith-Resume.pdf"
@@ -106,6 +107,55 @@ function App() {
             <span className="resumeText">View Full Resume</span>
             <i className="fa-solid fa-arrow-right"></i>
           </span>
+        </a>
+
+        <div id="projects"></div>
+
+        <a href="https://froobsbooks.com" rel="noreferrer" target="_blank">
+          <div className="experienceDiv">
+            <div className="experienceDate">
+              <div className="projectPreviewImage froobsbooksimage"></div>
+            </div>
+            <div>
+              <div className="experienceDesc">Kindle Books App</div>
+              <div className="experiencedescunder">
+                Progressive web pplication which allows you to freely download
+                books to your Kindle device with just a single click.
+              </div>
+              <div className="technologiesDiv">
+                <span class="text-teal-300">TypeScript</span>
+                <span class="text-teal-300">React</span>
+                <span class="text-teal-300">Auth0</span>
+                <span class="text-teal-300">AWS S3</span>
+                <span class="text-teal-300">Firebase</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://regal-malasada-21578a.netlify.app/#/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="experienceDiv">
+            <div className="experienceDate">
+              <div className="projectPreviewImage t6BrieferImage"></div>
+            </div>
+            <div>
+              <div className="experienceDesc">T6Briefer</div>
+              <div className="experiencedescunder">
+                Progressive web application built for naval flight students to
+                assist in flight brief preparation.
+              </div>
+              <div className="technologiesDiv">
+                <span class="text-teal-300">JavaScript</span>
+                <span class="text-teal-300">React</span>
+                <span class="text-teal-300">HTML</span>
+                <span class="text-teal-300">CSS</span>
+              </div>
+            </div>
+          </div>
         </a>
 
         <p className="backgroundp2"></p>
