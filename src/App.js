@@ -36,16 +36,24 @@ function App() {
             </div>
           </a>
         </div>
-        <a href="https://github.com/asmit222" target="_blank">
+        <a href="https://github.com/asmit222" rel="noreferrer" target="_blank">
           <i className="fab fa-github "></i>
         </a>
-        <a href="https://www.instagram.com/austinfroob/" target="_blank">
+        <a
+          href="https://www.instagram.com/austinfroob/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <i className="fab fa-instagram"></i>
         </a>
         <a>
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="https://www.linkedin.com/in/asmit222/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/asmit222/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <i className="fab fa-linkedin-in"></i>
         </a>
         <a href="/Austin-Smith-Resume.pdf" download="Austin-Smith-Resume.pdf">

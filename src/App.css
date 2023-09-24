@@ -253,7 +253,7 @@ li {
 
 .experienceDiv {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
   transition: background-color 0.2s ease, color 0.2s ease;
 
