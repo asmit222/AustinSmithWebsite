@@ -23,13 +23,13 @@ function App() {
               ABOUT
             </div>
           </a>
-          <a href="#test" className="group flex items-center py-3 active">
+          <a href="#experience" className="group flex items-center py-3 active">
             <div className="nav-text ">
               <span className="nav-indicator"></span>
               EXPERIENCE
             </div>
           </a>
-          <a href="#test" className="group flex items-center py-3 active">
+          <a href="#projects" className="group flex items-center py-3 active">
             <div className="nav-text ">
               <span className="nav-indicator"></span>
               PROJECTS
@@ -72,7 +72,28 @@ function App() {
           learning, movies, games, and spending time with loved ones.
         </p>
 
-        <p className="backgroundp" id="test">
+        <div id="experience"></div>
+
+        <div className="experienceDiv">
+          <div className="experienceDate">2020 — PRESENT</div>
+          <div>
+            <div className="experienceDesc">Software Engineer · State Farm</div>
+            <div className="experiencedescunder">
+              Deliver high-quality, robust production code for a diverse array
+              of products and APIs. Provide leadership within engineering
+              department through close collaboration, knowledge shares, and
+              mentorship.
+            </div>
+            <div className="technologiesDiv">
+              <span class="text-teal-300">Java</span>
+              <span class="text-teal-300">Gosu</span>
+              <span class="text-teal-300">OracleDB</span>
+              <span class="text-teal-300">PolicyCenter</span>
+            </div>
+          </div>
+        </div>
+
+        <p className="backgroundp2">
           My maaaaaaaaaaaaaaain focus these days is building products and
           leading projects for our clients at Upstatement. In my free time I've
           also released an online video course that covers everything you need
@@ -82,7 +103,7 @@ function App() {
           e d s .
         </p>
 
-        <p className="backgroundp" id="about">
+        <p className="backgroundp2" id="about">
           Back in 2012, I decided to try my hand at creating custom Tumblr
           themes and tumbled head first into the rabbit hole of coding and web
           development. Fast-forward to today, and I’ve had the privilege of

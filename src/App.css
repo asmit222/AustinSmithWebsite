@@ -150,7 +150,7 @@ html {
   background-color: #0f172a;
 }
 
-#test {
+#experience {
   padding-top: 6rem;
 }
 
@@ -249,4 +249,78 @@ li {
 
 .fa-download {
   font-size: 1rem;
+}
+
+.experienceDiv {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  width: 100%;
+  position: relative;
+  left: -1rem;
+}
+
+.experienceDiv:hover .experienceDesc {
+  color: #44c5c1; /* Change subDiv background color on parent hover */
+}
+
+.experienceDiv:hover {
+  cursor: pointer;
+  background-color: rgba(20, 32, 58, 0.795); /* Background color */
+  border-radius: 0.25rem; /* Rounded corners */
+  color: rgb(226, 232, 240); /* Text color */
+}
+
+.experienceDesc {
+  color: #e2e8f0;
+  /* margin-top: -5rem; */
+}
+
+#experience {
+  padding-top: 6rem;
+}
+
+.experiencedescunder {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #8492a7;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.experienceDate {
+  font-size: 0.75rem;
+  color: #8492a7;
+  font-weight: 500;
+  max-width: 5rem;
+  /* margin-top: -5rem; */
+}
+
+.backgroundp2 {
+  margin-top: 15rem;
+}
+
+.text-teal-300 {
+  --tw-text-opacity: 1;
+  color: rgb(94 234 212 / var(--tw-text-opacity));
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background-color: rgba(45, 212, 191, 0.1);
+  border-radius: 9999px;
+  align-items: center;
+}
+
+.technologiesDiv {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
