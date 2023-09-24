@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,8 +43,26 @@
     <title>React App</title>
   </head>
   <body>
+    <div class="cursor-spotlight"></div>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      const cursorSpotlight = document.querySelector(".cursor-spotlight");
+
+      document.addEventListener("mousemove", (e) => {
+        cursorSpotlight.style.left = `${e.clientX}px`;
+        cursorSpotlight.style.top = `${e.clientY}px`;
+        cursorSpotlight.style.transform = "translate(-50%, -50%) scale(2)";
+        cursorSpotlight.style.opacity = "1";
+      });
+
+      document.addEventListener("mouseout", () => {
+        cursorSpotlight.style.transform = "translate(-50%, -50%) scale(1)";
+        cursorSpotlight.style.opacity = "0";
+      });
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
