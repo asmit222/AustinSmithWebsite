@@ -376,3 +376,73 @@ li {
 
   background-repeat: no-repeat;
 }
+
+.experienceText {
+  display: none;
+}
+
+@media (max-width: 830px) {
+  .App {
+    display: inline-block;
+    padding-top: 2rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    font-size: 1em;
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  #root {
+  }
+  .leftSide {
+    /* position: absolute; */
+    position: relative;
+    top: 2rem;
+    margin-right: 0;
+    margin-left: 0 !important;
+    /* width: 100vw; */
+    padding-left: 2rem;
+  }
+  .rightSide {
+    margin-left: 2rem !important;
+    margin-right: 0rem !important;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    top: 4rem;
+    padding-top: 0rem !important;
+    margin-top: 0 !important;
+    width: 80vw;
+  }
+  .fa-github,
+  .fa-linkedin-in,
+  .fa-instagram,
+  .fa-twitter {
+    position: relative;
+    font-size: 1.5rem;
+    color: #8492a7;
+    transition: color ease-in-out 0.2s;
+    top: 0rem;
+    margin-bottom: 5rem;
+  }
+  .fa-instagram {
+    margin-left: 2rem;
+  }
+  .fa-linkedin-in {
+    margin-left: 2rem;
+  }
+  .fa-twitter {
+    margin-left: 2rem;
+  }
+  .sectionsDiv {
+    position: relative;
+  }
+  .experienceText {
+    display: block;
+    letter-spacing: 0.08rem;
+    color: #e2e8f0;
+    font-size: 0.85em;
+  }
+  .sectionsDiv {
+    display: none;
+  }
+}

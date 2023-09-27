@@ -61,6 +61,7 @@ function App() {
         </a> */}
       </header>
       <main className="rightSide" id="about">
+        <h4 className="experienceText">ABOUT</h4>
         <p className="backgroundp">
           As a full-stack software engineer, I am constantly seeking new
           opportunities to apply my diverse skill set and continue growing. I
@@ -78,6 +79,7 @@ function App() {
         </p>
 
         <div id="experience"></div>
+        <h4 className="experienceText">EXPERIENCE</h4>
 
         <div className="experienceDiv">
           <div className="experienceDate">2020 — PRESENT</div>
@@ -110,6 +112,7 @@ function App() {
         </a>
 
         <div id="projects"></div>
+        <h4 className="experienceText">PROJECTS</h4>
 
         <a href="https://froobsbooks.com" rel="noreferrer" target="_blank">
           <div className="experienceDiv">
