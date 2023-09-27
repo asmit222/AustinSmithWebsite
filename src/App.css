@@ -396,7 +396,7 @@ li {
     margin-right: 0px !important;
     margin-left: 0px !important;
     /* width: 100vw; */
-    padding-left: 7vw !important;
+    padding-left: 5vw !important;
     padding-right: 0px !important;
     width: 80vw !important;
     overflow-x: hidden !important;
@@ -404,7 +404,7 @@ li {
   .rightSide {
     margin-left: 0rem !important;
     margin-right: 0rem !important;
-    padding-left: 7vw;
+    padding-left: 5vw;
     padding-right: 0px !important;
     position: relative;
     top: 4rem;
