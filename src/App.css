@@ -366,3 +366,13 @@ li {
 
   background-repeat: no-repeat;
 }
+
+.floatBookImage {
+  background-image: url("./assets/floatbookpreview.png");
+  background-size: cover; /* or contain, or specific dimensions */
+  height: 130px;
+  width: 82px;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}

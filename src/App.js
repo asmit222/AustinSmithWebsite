@@ -177,6 +177,26 @@ function App() {
             </div>
           </div>
         </a>
+        <a href="https://floatbook.xyz/" rel="noreferrer" target="_blank">
+          <div className="experienceDiv">
+            <div className="experienceDate">
+              <div className="projectPreviewImage floatBookImage"></div>
+            </div>
+            <div>
+              <div className="experienceDesc">Hospital Float Book</div>
+              <div className="experiencedescunder">
+                Hospital unit scheduling assistant. This was a project for my
+                wife and her coworkers :)
+              </div>
+              <div className="technologiesDiv">
+                <span className="text-teal-300">JavaScript</span>
+                <span className="text-teal-300">React</span>
+                <span className="text-teal-300">Twilio</span>
+                <span className="text-teal-300">Firebase</span>
+              </div>
+            </div>
+          </div>
+        </a>
       </main>
     </div>
   );
