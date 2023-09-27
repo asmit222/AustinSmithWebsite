@@ -358,7 +358,7 @@ li {
 }
 
 .froobleImage {
-  background-image: url("./assets/frooblePreview.png");
+  background-image: url("./assets/frooblepreview.png");
   background-size: cover; /* or contain, or specific dimensions */
   height: 130px;
   width: 78px;
