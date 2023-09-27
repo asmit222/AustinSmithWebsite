@@ -358,10 +358,10 @@ li {
 }
 
 .froobleImage {
-  background-image: url("./assets/frooblepreview.png");
+  background-image: url("./assets/frooblePreview.png");
   background-size: cover; /* or contain, or specific dimensions */
   height: 130px;
-  width: 77px;
+  width: 78px;
   background-position: center center;
 
   background-repeat: no-repeat;
