@@ -122,7 +122,7 @@ function App() {
             <div>
               <div className="experienceDesc">Kindle Books App</div>
               <div className="experiencedescunder">
-                Progressive web pplication which allows you to freely download
+                Progressive web application which allows you to freely download
                 books to your Kindle device with just a single click.
               </div>
               <div className="technologiesDiv">
