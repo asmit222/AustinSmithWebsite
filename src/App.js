@@ -43,9 +43,6 @@ function App() {
         >
           <i className="fab fa-instagram"></i>
         </a>
-        <a>
-          <i className="fab fa-twitter"></i>
-        </a>
         <a
           href="https://www.linkedin.com/in/asmit222/"
           rel="noreferrer"
@@ -196,6 +193,28 @@ function App() {
                 <span className="text-teal-300">React</span>
                 <span className="text-teal-300">Twilio</span>
                 <span className="text-teal-300">Firebase</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/asmit222/trading-bot"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="experienceDiv">
+            <div className="experienceDate">
+              <div className="projectPreviewImage stockBotImage"></div>
+            </div>
+            <div>
+              <div className="experienceDesc">Stock Trading Bot</div>
+              <div className="experiencedescunder">
+                Automatically buys and sells stocks based off technical
+                indicators and trends.
+              </div>
+              <div className="technologiesDiv">
+                <span className="text-teal-300">Node.js</span>
+                <span className="text-teal-300">AWS EventBridge</span>
               </div>
             </div>
           </div>

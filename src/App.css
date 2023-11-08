@@ -221,9 +221,6 @@ li {
   margin-left: 2.75rem;
 }
 .fa-linkedin-in {
-  margin-left: 8.25rem;
-}
-.fa-twitter {
   margin-left: 5.5rem;
 }
 
@@ -371,7 +368,17 @@ li {
   background-image: url("./assets/floatbookpreview.png");
   background-size: cover; /* or contain, or specific dimensions */
   height: 130px;
-  width: 82px;
+  width: 86px;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+
+.stockBotImage {
+  background-image: url("./assets/stocktradingbotpreview.png");
+  background-size: cover; /* or contain, or specific dimensions */
+  height: 130px;
+  width: 79px;
   background-position: center center;
 
   background-repeat: no-repeat;
