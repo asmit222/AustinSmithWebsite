@@ -10,8 +10,7 @@ function App() {
         </h1>
         <h2 className="h2Softwareengineer">Software Engineer at State Farm</h2>
         <p className="pdescription">
-          I build elegant solutions and digital functionalities for backend
-          systems and server-side operations.
+          I build elegant solutions to complex problems.
         </p>
         <div className="sectionsDiv">
           <a href="#about" className="group flex items-center py-3 active">
