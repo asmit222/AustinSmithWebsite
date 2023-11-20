@@ -232,9 +232,9 @@ function App() {
               <div className="projectPreviewImage leetcodeCloneImage"></div>
             </div>
             <div>
-              <div className="experienceDesc">Leetcode Clone</div>
+              <div className="experienceDesc">LeetCode Clone</div>
               <div className="experiencedescunder">
-                Platform to practice Leetcode type coding problems.
+                Platform to practice LeetCode type coding problems.
               </div>
               <div className="technologiesDiv">
                 <span className="text-teal-300">TypeScript</span>
