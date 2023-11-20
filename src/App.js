@@ -8,7 +8,9 @@ function App() {
         <h1 className="NameHeader1">
           <a className="AustinSmith">Austin Smith</a>
         </h1>
-        <h2 className="h2Softwareengineer">Software Engineer at State Farm</h2>
+        <h2 className="h2Softwareengineer">
+          Lead Software Engineer at State Farm
+        </h2>
         <p className="pdescription">
           I build elegant solutions to complex problems.
         </p>
@@ -80,7 +82,9 @@ function App() {
         <div className="experienceDiv">
           <div className="experienceDate">2020 — PRESENT</div>
           <div>
-            <div className="experienceDesc">Software Engineer · State Farm</div>
+            <div className="experienceDesc">
+              Lead Software Engineer · State Farm
+            </div>
             <div className="experiencedescunder">
               Deliver high-quality, robust production code for a diverse array
               of products and APIs. Provide leadership within engineering
@@ -214,6 +218,27 @@ function App() {
               <div className="technologiesDiv">
                 <span className="text-teal-300">Node.js</span>
                 <span className="text-teal-300">AWS EventBridge</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://655b0207fb2a474a59ae44d7--deluxe-kitsune-005a80.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="experienceDiv">
+            <div className="experienceDate">
+              <div className="projectPreviewImage leetcodeCloneImage"></div>
+            </div>
+            <div>
+              <div className="experienceDesc">Leetcode Clone</div>
+              <div className="experiencedescunder">
+                Platform to practice Leetcode type coding problems.
+              </div>
+              <div className="technologiesDiv">
+                <span className="text-teal-300">TypeScript</span>
+                <span className="text-teal-300">React</span>
               </div>
             </div>
           </div>

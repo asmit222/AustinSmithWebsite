@@ -384,6 +384,16 @@ li {
   background-repeat: no-repeat;
 }
 
+.leetcodeCloneImage {
+  background-image: url("./assets/leetcodeClonePreview.PNG");
+  background-size: cover; /* or contain, or specific dimensions */
+  height: 50px;
+  width: 100px;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+
 .experienceText {
   display: none;
 }
