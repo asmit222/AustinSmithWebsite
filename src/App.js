@@ -223,7 +223,7 @@ function App() {
           </div>
         </a>
         <a
-          href="https://655c032d5df8ab166651e96c--deluxe-kitsune-005a80.netlify.app/"
+          href="https://655cdf85eb857b10285e0db0--deluxe-kitsune-005a80.netlify.app/"
           rel="noreferrer"
           target="_blank"
         >
